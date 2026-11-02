@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": [
+    "config/**/*.ts",
+    "hooks/**/*.ts",
+    "pages/**/*.ts",
+    "step-definitions/**/*.ts",
+    "test-runner/**/*.ts",
+    "playwright.config.ts"
+  ]
+}

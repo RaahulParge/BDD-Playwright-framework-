@@ -1,0 +1,25 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly Playwright, TypeScript, and Cucumber BDD framework",
+  "scripts": {
+    "test:bdd": "tsx test-runner/runner.ts",
+    "test:bdd:html": "tsx test-runner/runner.ts --html",
+    "test:bdd:headed": "tsx test-runner/runner.ts --headed",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@cucumber/html-formatter": "^21.10.1",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "playwright-bdd": "^9.2.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

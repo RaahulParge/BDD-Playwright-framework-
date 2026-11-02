@@ -1,0 +1,26 @@
+#node
+node_modules/
+
+#Environment Veriables
+.env
+.env.*
+!.env.example
+
+#playwright
+playwright-reports/
+test-results/
+reports/
+
+#Allure
+allure-reports/
+allure-results/
+
+#VS Code
+.vscode/
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#Logs
+.log
